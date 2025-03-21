@@ -19,7 +19,7 @@ jobs:
     - name: Set up Docker CLI
       uses: docker/login-action@v3
       with:
-        username: ${{ harshpanchal18 }}
+        username: harshpanchal18
         password: ${{ secrets.DOCKER_TOKEN }}
 
     # - name: Remove Old Image (if exists)
