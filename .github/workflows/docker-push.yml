@@ -31,4 +31,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-docker-image:latest
+        tags: harshpanchal18/flask-docker-image:latest
